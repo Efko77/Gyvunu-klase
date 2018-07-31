@@ -1,4 +1,12 @@
 package com.company.AnimalData;
 
-public class Dog {
+import com.company.DataSource.DataFromFile;
+
+public class Dog extends Animal{
+
+    public Dog(){
+        super(Animal.getData().getData("dog"));
+
+    }
+
 }

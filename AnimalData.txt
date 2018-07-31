@@ -1,3 +1,4 @@
 dog mammal Rikis 15.5 0.5 Walks
 cat mammal Tigra 10.2 0.3 Walks
 spider arachnid Tundra 0.1 0.03 Crawls
+pigeon bird Kiras 5.0 0.15 Fly
