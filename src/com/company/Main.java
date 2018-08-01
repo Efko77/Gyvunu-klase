@@ -1,18 +1,18 @@
 package com.company;
 
-import java.util.Scanner;
+import com.company.Conttroler.DataFromFile;
+import com.company.View.Meniu;
 
 public class Main {
 
     public static void main(String[] args) {
-        Main object = new Main();
-        object.showAnimal();
+
+        DataFromFile.getInstance();
+        Meniu menu = new Meniu();
+        menu.dirbam();
     }
 
-    private void showAnimal() {
 
-    }
-
-
+    //Meniu object=new Meniu();
+    //object.showMeniu();
 }
-
